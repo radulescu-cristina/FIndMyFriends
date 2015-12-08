@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4450E4241C17739E00522430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4231C17739E00522430 /* AppDelegate.swift */; };
+		4450E4261C17739E00522430 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4251C17739E00522430 /* FirstViewController.swift */; };
+		4450E4281C17739E00522430 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4271C17739E00522430 /* SecondViewController.swift */; };
+		4450E42B1C17739E00522430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450E4291C17739E00522430 /* Main.storyboard */; };
+		4450E42D1C17739F00522430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450E42C1C17739F00522430 /* Assets.xcassets */; };
+		4450E4301C17739F00522430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450E42E1C17739F00522430 /* LaunchScreen.storyboard */; };
+		4450E43B1C17739F00522430 /* FindMyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E43A1C17739F00522430 /* FindMyFriendsTests.swift */; };
+		4450E4461C17739F00522430 /* FindMyFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4451C17739F00522430 /* FindMyFriendsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4450E4371C17739F00522430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4450E4181C17739E00522430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4450E41F1C17739E00522430;
+			remoteInfo = FindMyFriends;
+		};
+		4450E4421C17739F00522430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4450E4181C17739E00522430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4450E41F1C17739E00522430;
+			remoteInfo = FindMyFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4450E4201C17739E00522430 /* FindMyFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450E4231C17739E00522430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4450E4251C17739E00522430 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4450E4271C17739E00522430 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4450E42A1C17739E00522430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4450E42C1C17739F00522430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4450E42F1C17739F00522430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4450E4311C17739F00522430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450E4361C17739F00522430 /* FindMyFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450E43A1C17739F00522430 /* FindMyFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsTests.swift; sourceTree = "<group>"; };
+		4450E43C1C17739F00522430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450E4411C17739F00522430 /* FindMyFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450E4451C17739F00522430 /* FindMyFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsUITests.swift; sourceTree = "<group>"; };
+		4450E4471C17739F00522430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4450E41D1C17739E00522430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E4331C17739F00522430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E43E1C17739F00522430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4450E4171C17739E00522430 = {
+			isa = PBXGroup;
+			children = (
+				4450E4221C17739E00522430 /* FindMyFriends */,
+				4450E4391C17739F00522430 /* FindMyFriendsTests */,
+				4450E4441C17739F00522430 /* FindMyFriendsUITests */,
+				4450E4211C17739E00522430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4450E4211C17739E00522430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4450E4201C17739E00522430 /* FindMyFriends.app */,
+				4450E4361C17739F00522430 /* FindMyFriendsTests.xctest */,
+				4450E4411C17739F00522430 /* FindMyFriendsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4450E4221C17739E00522430 /* FindMyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				4450E4231C17739E00522430 /* AppDelegate.swift */,
+				4450E4251C17739E00522430 /* FirstViewController.swift */,
+				4450E4271C17739E00522430 /* SecondViewController.swift */,
+				4450E4291C17739E00522430 /* Main.storyboard */,
+				4450E42C1C17739F00522430 /* Assets.xcassets */,
+				4450E42E1C17739F00522430 /* LaunchScreen.storyboard */,
+				4450E4311C17739F00522430 /* Info.plist */,
+			);
+			path = FindMyFriends;
+			sourceTree = "<group>";
+		};
+		4450E4391C17739F00522430 /* FindMyFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4450E43A1C17739F00522430 /* FindMyFriendsTests.swift */,
+				4450E43C1C17739F00522430 /* Info.plist */,
+			);
+			path = FindMyFriendsTests;
+			sourceTree = "<group>";
+		};
+		4450E4441C17739F00522430 /* FindMyFriendsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4450E4451C17739F00522430 /* FindMyFriendsUITests.swift */,
+				4450E4471C17739F00522430 /* Info.plist */,
+			);
+			path = FindMyFriendsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4450E41F1C17739E00522430 /* FindMyFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450E44A1C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriends" */;
+			buildPhases = (
+				4450E41C1C17739E00522430 /* Sources */,
+				4450E41D1C17739E00522430 /* Frameworks */,
+				4450E41E1C17739E00522430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyFriends;
+			productName = FindMyFriends;
+			productReference = 4450E4201C17739E00522430 /* FindMyFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4450E4351C17739F00522430 /* FindMyFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450E44D1C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */;
+			buildPhases = (
+				4450E4321C17739F00522430 /* Sources */,
+				4450E4331C17739F00522430 /* Frameworks */,
+				4450E4341C17739F00522430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4450E4381C17739F00522430 /* PBXTargetDependency */,
+			);
+			name = FindMyFriendsTests;
+			productName = FindMyFriendsTests;
+			productReference = 4450E4361C17739F00522430 /* FindMyFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4450E4401C17739F00522430 /* FindMyFriendsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450E4501C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsUITests" */;
+			buildPhases = (
+				4450E43D1C17739F00522430 /* Sources */,
+				4450E43E1C17739F00522430 /* Frameworks */,
+				4450E43F1C17739F00522430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4450E4431C17739F00522430 /* PBXTargetDependency */,
+			);
+			name = FindMyFriendsUITests;
+			productName = FindMyFriendsUITests;
+			productReference = 4450E4411C17739F00522430 /* FindMyFriendsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4450E4181C17739E00522430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cristina Radulescu";
+				TargetAttributes = {
+					4450E41F1C17739E00522430 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4450E4351C17739F00522430 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4450E41F1C17739E00522430;
+					};
+					4450E4401C17739F00522430 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4450E41F1C17739E00522430;
+					};
+				};
+			};
+			buildConfigurationList = 4450E41B1C17739E00522430 /* Build configuration list for PBXProject "FindMyFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4450E4171C17739E00522430;
+			productRefGroup = 4450E4211C17739E00522430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4450E41F1C17739E00522430 /* FindMyFriends */,
+				4450E4351C17739F00522430 /* FindMyFriendsTests */,
+				4450E4401C17739F00522430 /* FindMyFriendsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4450E41E1C17739E00522430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450E4301C17739F00522430 /* LaunchScreen.storyboard in Resources */,
+				4450E42D1C17739F00522430 /* Assets.xcassets in Resources */,
+				4450E42B1C17739E00522430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E4341C17739F00522430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E43F1C17739F00522430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4450E41C1C17739E00522430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450E4281C17739E00522430 /* SecondViewController.swift in Sources */,
+				4450E4241C17739E00522430 /* AppDelegate.swift in Sources */,
+				4450E4261C17739E00522430 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E4321C17739F00522430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450E43B1C17739F00522430 /* FindMyFriendsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450E43D1C17739F00522430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450E4461C17739F00522430 /* FindMyFriendsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4450E4381C17739F00522430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4450E41F1C17739E00522430 /* FindMyFriends */;
+			targetProxy = 4450E4371C17739F00522430 /* PBXContainerItemProxy */;
+		};
+		4450E4431C17739F00522430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4450E41F1C17739E00522430 /* FindMyFriends */;
+			targetProxy = 4450E4421C17739F00522430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4450E4291C17739E00522430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4450E42A1C17739E00522430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4450E42E1C17739F00522430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4450E42F1C17739F00522430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4450E4481C17739F00522430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4450E4491C17739F00522430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4450E44B1C17739F00522430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4450E44C1C17739F00522430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4450E44E1C17739F00522430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyFriends.app/FindMyFriends";
+			};
+			name = Debug;
+		};
+		4450E44F1C17739F00522430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyFriends.app/FindMyFriends";
+			};
+			name = Release;
+		};
+		4450E4511C17739F00522430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindMyFriendsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindMyFriends;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4450E4521C17739F00522430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindMyFriendsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindMyFriends;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4450E41B1C17739E00522430 /* Build configuration list for PBXProject "FindMyFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450E4481C17739F00522430 /* Debug */,
+				4450E4491C17739F00522430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4450E44A1C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450E44B1C17739F00522430 /* Debug */,
+				4450E44C1C17739F00522430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4450E44D1C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450E44E1C17739F00522430 /* Debug */,
+				4450E44F1C17739F00522430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4450E4501C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450E4511C17739F00522430 /* Debug */,
+				4450E4521C17739F00522430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4450E4181C17739E00522430 /* Project object */;
+}
