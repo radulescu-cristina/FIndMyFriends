@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4415BF241C45A89100494492 /* NLFDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415BF231C45A89100494492 /* NLFDownloadManager.swift */; };
+		4415BF261C45A90700494492 /* NLFDownloadableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415BF251C45A90700494492 /* NLFDownloadableImageView.swift */; };
 		4450E4241C17739E00522430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4231C17739E00522430 /* AppDelegate.swift */; };
 		4450E4261C17739E00522430 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4251C17739E00522430 /* FirstViewController.swift */; };
 		4450E4281C17739E00522430 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4271C17739E00522430 /* SecondViewController.swift */; };
@@ -15,6 +17,25 @@
 		4450E4301C17739F00522430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450E42E1C17739F00522430 /* LaunchScreen.storyboard */; };
 		4450E43B1C17739F00522430 /* FindMyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E43A1C17739F00522430 /* FindMyFriendsTests.swift */; };
 		4450E4461C17739F00522430 /* FindMyFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E4451C17739F00522430 /* FindMyFriendsUITests.swift */; };
+		4450E45B1C17792400522430 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E45A1C17792400522430 /* FBSDKCoreKit.framework */; };
+		4450E45D1C17804500522430 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E45C1C17804500522430 /* FBSDKLoginKit.framework */; };
+		4450E45F1C17843600522430 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E45E1C17843600522430 /* LoginViewController.swift */; };
+		4450E4621C1C484700522430 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4601C1C484700522430 /* Bolts.framework */; };
+		4450E4631C1C484700522430 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4611C1C484700522430 /* Parse.framework */; };
+		4450E4651C1C48B300522430 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4641C1C48B300522430 /* AudioToolbox.framework */; };
+		4450E4671C1C48BD00522430 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4661C1C48BD00522430 /* CFNetwork.framework */; };
+		4450E4691C1C48CA00522430 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4681C1C48CA00522430 /* CoreGraphics.framework */; };
+		4450E46B1C1C48D500522430 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E46A1C1C48D500522430 /* CoreLocation.framework */; };
+		4450E46D1C1C48E000522430 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E46C1C1C48E000522430 /* QuartzCore.framework */; };
+		4450E46F1C1C48E900522430 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E46E1C1C48E900522430 /* Security.framework */; };
+		4450E4711C1C48F400522430 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4701C1C48F400522430 /* StoreKit.framework */; };
+		4450E4731C1C490700522430 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4721C1C490700522430 /* SystemConfiguration.framework */; };
+		4450E4751C1C491B00522430 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4741C1C491B00522430 /* libz.tbd */; };
+		4450E4771C1C492A00522430 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4761C1C492A00522430 /* libsqlite3.tbd */; };
+		4450E4791C1C526100522430 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450E4781C1C526100522430 /* ParseFacebookUtilsV4.framework */; };
+		4450E47C1C1C5AF700522430 /* FriendRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E47B1C1C5AF700522430 /* FriendRelation.swift */; };
+		4450E47E1C1C5B2E00522430 /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E47D1C1C5B2E00522430 /* ParseObject.swift */; };
+		4450E4801C1C5C5700522430 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450E47F1C1C5C5700522430 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4415BF231C45A89100494492 /* NLFDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLFDownloadManager.swift; sourceTree = "<group>"; };
+		4415BF251C45A90700494492 /* NLFDownloadableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLFDownloadableImageView.swift; sourceTree = "<group>"; };
 		4450E4201C17739E00522430 /* FindMyFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4450E4231C17739E00522430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4450E4251C17739E00522430 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +72,25 @@
 		4450E4411C17739F00522430 /* FindMyFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4450E4451C17739F00522430 /* FindMyFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsUITests.swift; sourceTree = "<group>"; };
 		4450E4471C17739F00522430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450E45A1C17792400522430 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4450E45C1C17804500522430 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4450E45E1C17843600522430 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4450E4601C1C484700522430 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4450E4611C1C484700522430 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4450E4641C1C48B300522430 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4450E4661C1C48BD00522430 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4450E4681C1C48CA00522430 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4450E46A1C1C48D500522430 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4450E46C1C1C48E000522430 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4450E46E1C1C48E900522430 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4450E4701C1C48F400522430 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4450E4721C1C490700522430 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4450E4741C1C491B00522430 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4450E4761C1C492A00522430 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4450E4781C1C526100522430 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		4450E47B1C1C5AF700522430 /* FriendRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendRelation.swift; sourceTree = "<group>"; };
+		4450E47D1C1C5B2E00522430 /* ParseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseObject.swift; sourceTree = "<group>"; };
+		4450E47F1C1C5C5700522430 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450E4771C1C492A00522430 /* libsqlite3.tbd in Frameworks */,
+				4450E4751C1C491B00522430 /* libz.tbd in Frameworks */,
+				4450E4731C1C490700522430 /* SystemConfiguration.framework in Frameworks */,
+				4450E4711C1C48F400522430 /* StoreKit.framework in Frameworks */,
+				4450E46F1C1C48E900522430 /* Security.framework in Frameworks */,
+				4450E46D1C1C48E000522430 /* QuartzCore.framework in Frameworks */,
+				4450E46B1C1C48D500522430 /* CoreLocation.framework in Frameworks */,
+				4450E4691C1C48CA00522430 /* CoreGraphics.framework in Frameworks */,
+				4450E4671C1C48BD00522430 /* CFNetwork.framework in Frameworks */,
+				4450E4651C1C48B300522430 /* AudioToolbox.framework in Frameworks */,
+				4450E4621C1C484700522430 /* Bolts.framework in Frameworks */,
+				4450E45D1C17804500522430 /* FBSDKLoginKit.framework in Frameworks */,
+				4450E4631C1C484700522430 /* Parse.framework in Frameworks */,
+				4450E45B1C17792400522430 /* FBSDKCoreKit.framework in Frameworks */,
+				4450E4791C1C526100522430 /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +136,7 @@
 		4450E4171C17739E00522430 = {
 			isa = PBXGroup;
 			children = (
+				4450E4551C17775100522430 /* Frameworks */,
 				4450E4221C17739E00522430 /* FindMyFriends */,
 				4450E4391C17739F00522430 /* FindMyFriendsTests */,
 				4450E4441C17739F00522430 /* FindMyFriendsUITests */,
@@ -99,6 +157,7 @@
 		4450E4221C17739E00522430 /* FindMyFriends */ = {
 			isa = PBXGroup;
 			children = (
+				4450E47A1C1C5AD500522430 /* Models */,
 				4450E4231C17739E00522430 /* AppDelegate.swift */,
 				4450E4251C17739E00522430 /* FirstViewController.swift */,
 				4450E4271C17739E00522430 /* SecondViewController.swift */,
@@ -106,6 +165,7 @@
 				4450E42C1C17739F00522430 /* Assets.xcassets */,
 				4450E42E1C17739F00522430 /* LaunchScreen.storyboard */,
 				4450E4311C17739F00522430 /* Info.plist */,
+				4450E45E1C17843600522430 /* LoginViewController.swift */,
 			);
 			path = FindMyFriends;
 			sourceTree = "<group>";
@@ -126,6 +186,40 @@
 				4450E4471C17739F00522430 /* Info.plist */,
 			);
 			path = FindMyFriendsUITests;
+			sourceTree = "<group>";
+		};
+		4450E4551C17775100522430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4450E4761C1C492A00522430 /* libsqlite3.tbd */,
+				4450E4741C1C491B00522430 /* libz.tbd */,
+				4450E4781C1C526100522430 /* ParseFacebookUtilsV4.framework */,
+				4450E4721C1C490700522430 /* SystemConfiguration.framework */,
+				4450E4701C1C48F400522430 /* StoreKit.framework */,
+				4450E46E1C1C48E900522430 /* Security.framework */,
+				4450E46C1C1C48E000522430 /* QuartzCore.framework */,
+				4450E46A1C1C48D500522430 /* CoreLocation.framework */,
+				4450E4681C1C48CA00522430 /* CoreGraphics.framework */,
+				4450E4661C1C48BD00522430 /* CFNetwork.framework */,
+				4450E4641C1C48B300522430 /* AudioToolbox.framework */,
+				4450E4601C1C484700522430 /* Bolts.framework */,
+				4450E4611C1C484700522430 /* Parse.framework */,
+				4450E45C1C17804500522430 /* FBSDKLoginKit.framework */,
+				4450E45A1C17792400522430 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4450E47A1C1C5AD500522430 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4450E47B1C1C5AF700522430 /* FriendRelation.swift */,
+				4450E47D1C1C5B2E00522430 /* ParseObject.swift */,
+				4450E47F1C1C5C5700522430 /* Friend.swift */,
+				4415BF231C45A89100494492 /* NLFDownloadManager.swift */,
+				4415BF251C45A90700494492 /* NLFDownloadableImageView.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +284,9 @@
 		4450E4181C17739E00522430 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					100,
+				);
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Cristina Radulescu";
@@ -259,8 +356,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450E47C1C1C5AF700522430 /* FriendRelation.swift in Sources */,
+				4450E4801C1C5C5700522430 /* Friend.swift in Sources */,
+				4450E45F1C17843600522430 /* LoginViewController.swift in Sources */,
+				4450E47E1C1C5B2E00522430 /* ParseObject.swift in Sources */,
 				4450E4281C17739E00522430 /* SecondViewController.swift in Sources */,
+				4415BF261C45A90700494492 /* NLFDownloadableImageView.swift in Sources */,
 				4450E4241C17739E00522430 /* AppDelegate.swift in Sources */,
+				4415BF241C45A89100494492 /* NLFDownloadManager.swift in Sources */,
 				4450E4261C17739E00522430 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +504,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/cristinaradulescu/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = FindMyFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriends;
@@ -412,6 +520,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/cristinaradulescu/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = FindMyFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Disertatie.FindMyFriends;
@@ -486,6 +599,7 @@
 				4450E44C1C17739F00522430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4450E44D1C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +608,7 @@
 				4450E44F1C17739F00522430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4450E4501C17739F00522430 /* Build configuration list for PBXNativeTarget "FindMyFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +617,7 @@
 				4450E4521C17739F00522430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

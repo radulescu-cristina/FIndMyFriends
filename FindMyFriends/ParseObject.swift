@@ -6,8 +6,9 @@
 //  Copyright © 2015 Cristina Radulescu. All rights reserved.
 //
 
-import Cocoa
+import Parse
 
-class ParseObject: NSObject {
-
+protocol ParseObject {
+    func saveEventually()
+    static func decode(pfObject: PFObject) -> ParseObject
 }
