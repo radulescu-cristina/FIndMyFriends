@@ -14,33 +14,43 @@ class SecondViewController: UITableViewController {
     
     var user: PFUser?
     var friends: [Friend] = []
-    var downloadedImages = [String: UIImage]()
-    let kNLFDownloadManagerDidDownloadImage = "kNLFDownloadManagerDidDownloadImage"
+    var backingObjects: [AnyObject]?
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return friends.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        let user = self.friends[indexPath.row]
-       
-        let userImageView = NLFDownloadableImageView()
-        var cell = self.tableView.dequeueReusableCellWithIdentifier("friendCell")
-        if (nil == cell) {
-            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "friendCell")
+//    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        
+//        let user = self.friends[indexPath.row]
+//        
+//        var cell = self.tableView.dequeueReusableCellWithIdentifier("friendCell")
+//        if (nil == cell) {
+//            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "friendCell")
+//        }
+//        
+//        //let imageView = cell?.viewWithTag(100) //as! UIImageView
+//        //let label = cell?.viewWithTag(101) //as! UILabel
+//        
+//        let url = NSURL(string: user.profilePicture)
+//        let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
+//        cell!.imageView?.image = UIImage(data: data!)
+//        
+//        cell!.textLabel?.text = user.firstName + " " + user.lastName
+//        
+//        return cell!
+//    }
+    
+    public override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let objects = self.friends
+        if (indexPath.row < objects.count) {
+            var object: AnyObject = objects[indexPath.row]
+            //populate table view
+            
         }
-       
-        userImageView.URLString = user.profilePicture
-        //let url = NSURL(string: user.profilePicture)
-        //let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
-        cell!.imageView?.image = userImageView.image //UIImage(data: data!)
-       
-        cell!.textLabel?.text = user.firstName + " " + user.lastName
-       
-        return cell!
-       
+        return UITableViewCell()
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -116,34 +126,5 @@ class SecondViewController: UITableViewController {
                 print(error)
             }
         }
-    }
-    
-    func getDataFromUrl(url:NSURL, completion: ((data: NSData?, response: NSURLResponse?, error: NSError? ) -> Void)) {
-        NSURLSession.sharedSession().dataTaskWithURL(url) { (data, response, error) in
-            completion(data: data, response: response, error: error)
-            }.resume()
-    }
-    
-    func downloadImage(url: String){
-        print("Download Started")
-        let imgURL = NSURL(string: url)
-        let request = NSURLRequest(URL: imgURL!)
-        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: {(response: NSURLResponse?,data: NSData?,error: NSError?) -> Void in
-            if error == nil {
-                if let image = UIImage(data: data!) {
-                    self.downloadedImages[url] = image
-                    dispatch_async(dispatch_get_main_queue(), {
-                        self.postImage(image)
-                        return
-                    })
-                }
-            }
-        })
-        
-    }
-    
-    func postImage(image: UIImage)
-    {
-        NSNotificationCenter.defaultCenter().postNotificationName(kNLFDownloadManagerDidDownloadImage, object: self, userInfo:["image": image])
     }
 }
